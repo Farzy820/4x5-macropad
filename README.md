@@ -32,7 +32,8 @@ A 3D-printed, hand-soldered 4x5 macropad powered by an Arduino Pro Micro, runnin
 - Next, move on to the rows. Trim the top of each diode (the non-black side) down to about 1 cm. Then, solder the trimmed ends to the bottom pins of each switch, making sure the black ends are facing downwards. Bend the leads of the diodes so they make contact with the other bent diodes next to them.
 - Be sure to add electrical tape over the columns that may come into contact with the diodes to prevent any short circuits if you decide to connect them that way.
 
-![keyboard layout rows](https://github.com/user-attachments/assets/7e60f486-a2bd-44f3-a16e-418abe78bc91)
+![keyboard rows](https://github.com/user-attachments/assets/b33c0ff6-2c44-443f-86c7-9e3897143f42)
+
 ### Getting the Arduino Ready
 - Take your button and solder two wires to its contacts. Then, place the button near the designated hole and secure it in place with hot glue.
 - Now, get your Arduino
