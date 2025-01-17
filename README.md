@@ -21,6 +21,7 @@ A 3D-printed, hand-soldered 4x5 macropad powered by an Arduino Pro Micro, runnin
 
 ### Assembly 
 - After 3D printing the parts, we can start making your macropad. Place all your keys inside the bracket, making sure all the pins face one direction. 
+
 ![keyboard layout](https://github.com/user-attachments/assets/e7cc85ac-eefe-43d9-b3ad-035709b7a15e)
 
 
