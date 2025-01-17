@@ -1,5 +1,5 @@
 # 4x5-Macropad
-A 3D-printed and hand-soldered 4x5 macropad, running QMK and compatible with VIA, which I made as a school project. After a few friends showed interest in making one of their own, I decided to post it here.
+A 3D-printed, hand-soldered 4x5 macropad powered by an Arduino Pro Micro, running QMK, and compatible with VIA, which I made as a school project. After a few friends showed interest in making one of their own, I decided to post my project and a tutorial here.
 
 # Installation and Setup
 
