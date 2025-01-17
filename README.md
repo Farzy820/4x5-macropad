@@ -30,9 +30,13 @@ A 3D-printed, hand-soldered 4x5 macropad powered by an Arduino Pro Micro, runnin
 ![keyboard layout columns](https://github.com/user-attachments/assets/792591f1-d4b6-48a8-8f89-8eafa6001ea2)
 
 - Next, move on to the rows. Trim the top of each diode (the non-black side) down to about 1 cm. Then, solder the trimmed ends to the bottom pins of each switch, making sure the black ends are facing downwards. Bend the leads of the diodes so they make contact with the other bent diodes next to them.
+- Be sure to add electrical tape over the columns that may come into contact with the diodes to prevent any short circuits if you decide to connect them that way.
 
 ![keyboard layout rows](https://github.com/user-attachments/assets/7e60f486-a2bd-44f3-a16e-418abe78bc91)
 
+### Getting the Arduino ready 
+- Get your button and solder one two wires to its conacts. place the button near the hole and hotglue it to place
+- Now get your arduino 
 
 ## Tutorials I Followed
 - ["This Keyboard Will Make You More Productive! DIY Macropad Build + QMK Setup"](https://www.youtube.com/watch?v=BcXycScePHM)
