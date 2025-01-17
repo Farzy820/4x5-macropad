@@ -21,7 +21,7 @@ A 3D-printed, hand-soldered 4x5 macropad powered by an Arduino Pro Micro, runnin
 - First, you want to download the latest version of QMK MSYS from [QMK MSYS](https://msys.qmk.fm/) and QMK Toolbox from [QMK Toolbox](https://qmk.fm/toolbox), as well as [VIA](https://github.com/cebby2420/via-desktop/releases/tag/v2025.1.13) if you wish to keep a local instal copy. Otherwise, you can also reprogram keys from its [browser version](https://usevia.app/).
 
 ### Assembly
-- After 3D printing the parts, you can start assembling your macropad. Place all your keys inside the bracket, making sure all the pins face one direction, as shown.
+- After [3D printing the parts](https://www.printables.com/model/1152899-4x5-macropad), you can start assembling your macropad. Place all your keys inside the bracket, making sure all the pins face one direction, as shown.
 
 ![keyboard layout](https://github.com/user-attachments/assets/e7cc85ac-eefe-43d9-b3ad-035709b7a15e)
 
