@@ -27,7 +27,7 @@ A 3D-printed, hand-soldered 4x5 macropad powered by an Arduino Pro Micro, runnin
 
 - Now, start with your columns. Solder all the top pins of each switch together with wires. A useful tip is to use copper wire cut to length to make contact with each pin.
 
-![keyboard layout columns](https://github.com/user-attachments/assets/792591f1-d4b6-48a8-8f89-8eafa6001ea2)
+![keyboard colums](https://github.com/user-attachments/assets/fb39b13b-8762-46b5-b09b-434b9ebd21e4)
 
 - Next, move on to the rows. Trim the top of each diode (the non-black side) down to about 1 cm. Then, solder the trimmed ends to the bottom pins of each switch, making sure the black ends are facing downwards. Bend the leads of the diodes so they make contact with the other bent diodes next to them.
 - Be sure to add electrical tape over the columns that may come into contact with the diodes to prevent any short circuits if you decide to connect them that way.
