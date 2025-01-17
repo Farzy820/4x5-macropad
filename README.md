@@ -12,6 +12,7 @@ A 3D-printed, hand-soldered 4x5 macropad powered by an Arduino Pro Micro, runnin
 ### Tools:
 - Soldering iron
 - Hot glue gun
+- Electrical tape
 ### Other Materials:
 - Access to a 3D printer for the case and keyswitch bracket
 
@@ -24,9 +25,13 @@ A 3D-printed, hand-soldered 4x5 macropad powered by an Arduino Pro Micro, runnin
 
 ![keyboard layout](https://github.com/user-attachments/assets/e7cc85ac-eefe-43d9-b3ad-035709b7a15e)
 
-- Now, start with your columns. Connect all the top pins of each switch together with wires.
+- Now, start with your columns. Solder all the top pins of each switch together with wires. A useful tip is to use copper wire cut to length to make contact with each pin.
 
 ![keyboard layout columns](https://github.com/user-attachments/assets/792591f1-d4b6-48a8-8f89-8eafa6001ea2)
+
+- Next, move on to the rows. Trim the top of each diode (the non-black side) down to about 1 cm. Then, solder the trimmed ends to the bottom pins of each switch, making sure the black ends are facing downwards. Bend the leads of the diodes so they make contact with the other bent diodes next to them.
+
+![keyboard layout rows](https://github.com/user-attachments/assets/8e441c13-0a82-4172-b7c6-074eea046f52)
 
 
 ## Tutorials I Followed
