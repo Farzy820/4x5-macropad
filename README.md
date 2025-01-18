@@ -36,7 +36,7 @@ A 3D-printed, hand-soldered 4x5 macropad powered by an Arduino Pro Micro, runnin
 
 ### Getting the Arduino Ready
 - Take your button and solder two wires to its contacts. Then, place the button near the designated hole and secure it in place with hot glue.
-- Now, get your Arduino
+- Now, get your Arduino and ill finish this later
 
 ## Tutorials I Followed
 - ["This Keyboard Will Make You More Productive! DIY Macropad Build + QMK Setup"](https://www.youtube.com/watch?v=BcXycScePHM)
