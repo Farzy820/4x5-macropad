@@ -1,11 +1,11 @@
 {
     "manufacturer": "Farzam",
     "keyboard_name": "4x5_macropad",
-    "maintainer": "Farzam",
+    "maintainer": "Farzy820",
     "development_board": "promicro",
     "diode_direction": "COL2ROW",
     "features": {
-        "bootmagic": false,
+        "bootmagic": true, // Change 'bootmagic' to false
         "command": false,
         "console": false,
         "extrakey": true,
@@ -13,18 +13,19 @@
         "nkro": true
     },
     "matrix_pins": {
-        "cols": ["D1", "D0", "D4", "C6"],
-        "rows": ["D7", "E6", "B4", "B5", "B6"]
+        "cols": ["D1", "D0", "D4", "C6"], // Column pins: D1 (2), D0 (3), D4 (4), C6 (5)
+        "rows": ["D7", "E6", "B4", "B5", "B6"] // Row pins: D7 (6), E6 (7), B4 (8), B5 (9), B6 (10)
     },
     "url": "",
     "usb": {
         "device_version": "1.0.0",
-        "pid": "0x0820",
-        "vid": "0x4646"
+        "pid": "0x0000", // Change to a unique value, e.g. '0x0820'
+        "vid": "0xFEED" // Change to your initials in hexadecimal form, e.g. 'FF' = '0x4646'
     },
+    // Replace the layout section in your file with this one
     "layouts": {
         "LAYOUT": {
-            "layout": [
+            "layout": [ 
                 {"matrix": [0, 0], "x": 0, "y": 0},
                 {"matrix": [0, 1], "x": 1, "y": 0},
                 {"matrix": [0, 2], "x": 2, "y": 0},
