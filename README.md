@@ -46,12 +46,30 @@ A 3D-printed, hand-soldered 4x5 macropad powered by an Arduino Pro Micro, runnin
 ![image](https://github.com/user-attachments/assets/7ecc42e7-464c-45dc-a498-87ee5e34c4b2)
 
 - Now, your project folder is ready. Copy the project location and open the folder in [VS Code](https://code.visualstudio.com/download). Then, go to `keyboard.json`.
-- In `keyboard.json`, you'll need to make a few changes. Open my [keyboard.json](https://github.com/Farzy820/4x5-macropad/edit/main/keyboard.json) to see what to change.
+- In `keyboard.json`, you'll need to make a few changes. Open my [keyboard.json](https://github.com/Farzy820/4x5-macropad/edit/main/keyboard.json)to see what needs to be changed.
 - Next, go to the **`keymaps/default`** folder and open `keymap.c`.
 - Replace the contents of the file with the code from my [keymap.c](https://github.com/Farzy820/4x5-macropad/blob/main/keymap.c). `keymap.c` defines the macropad's button layout. If you wish to hardcode a layout that will work across any device, you can find the keycodes in QMK's [Basic Keycodes](https://docs.qmk.fm/keycodes_basic).
 - Go back to the keymaps folder, copy **`default`**, but rename it to **`via`**, and create a new file named **`rules.mk`**. In `rules.mk`, add **`VIA_ENABLE = yes`**, then save. This setting enables VIA compatibility for your macropad.
+- Finally, download [via.json](https://github.com/Farzy820/4x5-macropad/blob/main/via.json) and move it to the `keymaps` directory. Make sure to open the file and enter the correct information as stated in its comments.
+  
 ### Your file tree should look like this 
-![image](https://github.com/user-attachments/assets/43697bfb-6366-4892-ab42-0b2b97b7d3fb)
+![image](https://github.com/user-attachments/assets/fee2fcc7-3b22-47f9-811a-0a799996cb11)
+
+- Open QMK MSYS and enter `"qmk compile -kb 4x5_macropad -km via"`. It will take a minute, but you will see a check with [OK] after many of the lines.
+- Now that the file is ready to be flashed, open QMK Toolbox and make sure the MCU says **ATmega32U4**, since that is the processor the arduino uses, then click `Open`
+![image](https://github.com/user-attachments/assets/1e93059c-ac9e-44e7-a64a-bba98f4971f3)
+- Go to `\Users\<user>\qmk_firmware` and select `4x5_macropad_via.hex` and enable auto-flash, then plug in your Arduino to start the flashing process
+![image](https://github.com/user-attachments/assets/99d6ed39-7072-491f-9ef4-35b6953a5404)
+
+## Final steps 
+- Hot glue the Arduino into its designated slot in the case, then follow the wiring diagram to connect the switches to the board.
+![keyboard wiring](https://github.com/user-attachments/assets/b50724c1-79b9-4230-a455-d92dda9ec6e9)
+- *if your Arduino isn't flashing, press the reset button twice in quickly to set it into bootloader mode.*
+- QMK Toolbox has its own keyboard tester if you've created your own layout. Otherwise, open VIA and enable the "Show Design" tab.
+![image](https://github.com/user-attachments/assets/8e6e1dfa-d613-4364-a894-b62856ac3ce3)
+
+
+
 
 ## Tutorials I Followed
 - ["This Keyboard Will Make You More Productive! DIY Macropad Build + QMK Setup"](https://www.youtube.com/watch?v=BcXycScePHM)
