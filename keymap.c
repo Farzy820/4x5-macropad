@@ -2,6 +2,7 @@
 // a different input depending on the active layer. This lets you switch 
 // between different keymaps easily.
 
+// KC_NO means "Ignore this key (NOOP)"
 #include QMK_KEYBOARD_H
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT( //Layer 1
