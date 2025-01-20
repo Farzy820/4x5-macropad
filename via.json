@@ -1,7 +1,7 @@
 {
-    "name": "Farzam",
-    "vendorId": "0x4646",
-    "productId": "0x0820",
+    "name": "", // Your name
+    "vendorId": "0xFEED", // Use the same number added for 'vid' in keyboard.json
+    "productId": "0x0000", // Use the same number added for 'pid' in keyboard.json
     "matrix": {
         "rows": 5,
         "cols": 4
