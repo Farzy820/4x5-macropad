@@ -5,7 +5,7 @@
     "development_board": "promicro",
     "diode_direction": "COL2ROW",
     "features": {
-        "bootmagic": true, // Change 'bootmagic' to false
+        "bootmagic": false, // Change 'bootmagic' to false
         "command": false,
         "console": false,
         "extrakey": true,
