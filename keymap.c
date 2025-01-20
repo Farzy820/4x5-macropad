@@ -1,5 +1,5 @@
 // Each layer has its own layout and can be toggled, allowing a button to be 
-// a different input depending on the active layer. This enables you to switch 
+// a different input depending on the active layer. This lets you switch 
 // between different keymaps easily.
 
 #include QMK_KEYBOARD_H
