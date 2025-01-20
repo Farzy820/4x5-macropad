@@ -72,6 +72,7 @@ A 3D-printed, hand-soldered 4x5 macropad powered by an Arduino Pro Micro, runnin
 - In the **Configure Tab**, the macropad should now appear. Test your inputs by going to the **Key Tester** tab and enabling the test matrix to see if everything is working. If it isn't there, double check the `pid` and `vid` are both matching as mentioned earlier.
 ![Screenshot 2025-01-20 141011](https://github.com/user-attachments/assets/f875b23a-3b51-4212-b67f-220610705f33)
 - If everything is working, you can now fully assemble the macropad and start using it!
+
 ![Asset 4](https://github.com/user-attachments/assets/d8e630b6-f97b-4474-8010-850965ad522b)
 ![Asset 3](https://github.com/user-attachments/assets/309e5ebb-c66d-4165-8a42-a89d3560ab2a)
 
