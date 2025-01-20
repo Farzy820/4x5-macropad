@@ -76,7 +76,7 @@ A 3D-printed, hand-soldered 4x5 macropad powered by an Arduino Pro Micro, runnin
 ![Asset 4](https://github.com/user-attachments/assets/d8e630b6-f97b-4474-8010-850965ad522b)
 ![Asset 3](https://github.com/user-attachments/assets/309e5ebb-c66d-4165-8a42-a89d3560ab2a)
 
-*If you have any issues, try reflashing the firmware, checking the wiring connections.*
+*If you have any issues, try reflashing the firmware, checking the wiring connections, or the code.*
 
 ## Future Plans
 For now, this is it, but I may merge the project into the official [QMK](https://github.com/qmk/qmk_firmware/tree/master/keyboards) and [VIA](https://github.com/the-via/keyboards) repos later on. I’m also considering adding a screen sometime in the future as a v2 version. Any suggestions for improvements or features would be greatly appreciated!
