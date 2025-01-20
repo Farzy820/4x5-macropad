@@ -18,7 +18,7 @@ A 3D-printed, hand-soldered 4x5 macropad powered by an Arduino Pro Micro, runnin
 
 ## Installation and Setup
 ### Firmware
-- First, you want to download the latest version of QMK MSYS from [QMK MSYS](https://msys.qmk.fm/) and QMK Toolbox from [QMK Toolbox](https://qmk.fm/toolbox), as well as [VIA](https://github.com/cebby2420/via-desktop/releases/tag/v2025.1.13) if you wish to keep a local instal copy. Otherwise, you can also reprogram keys from its [browser version](https://usevia.app/).
+- First, you want to download the latest version of [QMK MSYS](https://msys.qmk.fm/) and [QMK Toolbox](https://qmk.fm/toolbox), as well as [VIA](https://github.com/cebby2420/via-desktop/releases/tag/v2025.1.13) if you wish to keep a local instal copy. Otherwise, you can also reprogram keys from its [browser version](https://usevia.app/).
 
 ### Assembly
 - After [3D printing the parts](https://www.printables.com/model/1152899-4x5-macropad), you can start assembling your macropad. Place all your keys inside the bracket, making sure all the pins face one direction, as shown.
@@ -36,7 +36,17 @@ A 3D-printed, hand-soldered 4x5 macropad powered by an Arduino Pro Micro, runnin
 
 ### Getting the Arduino Ready
 - Take your button and solder two wires to its contacts. Then, place the button near the designated hole and secure it in place with hot glue.
-- Now, get your Arduino and ill finish this later
+- Next, get your Arduino and open QMK MSYS to program the keyboard, and QMK Toolbox to flash the program to the Arduino.
+- In QMK MSYS, type `qmk new-keyboard` and press **Enter**. You will then be prompted to enter a keyboard name—name it `4x5_macropad`. After that, you will be asked for your GitHub username and real name; enter your name for both if you don't have a GitHub account.
+
+![Screenshot 2025-01-20 113755](https://github.com/user-attachments/assets/d2f1faba-535d-4136-83e5-e0f4fc798c28)
+
+- You'll be asked to **Pick a base layout**. Select **none of the above** if it isn't already selected, then press **Enter**.
+- You’ll be prompted to confirm if you're using a separate development board. Type `y` and press **Enter**, then choose **Pro Micro** from the list.
+
+![image](https://github.com/user-attachments/assets/7ecc42e7-464c-45dc-a498-87ee5e34c4b2)
+
+- Now, your project folder is ready. Copy the project location and open the folder.
 
 ## Tutorials I Followed
 - ["This Keyboard Will Make You More Productive! DIY Macropad Build + QMK Setup"](https://www.youtube.com/watch?v=BcXycScePHM)
