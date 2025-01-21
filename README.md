@@ -80,8 +80,3 @@ A 3D-printed, hand-soldered 4x5 macropad powered by an Arduino Pro Micro, runnin
 
 ## Future Plans
 For now, this is it, but I may merge the project into the official [QMK](https://github.com/qmk/qmk_firmware/tree/master/keyboards) and [VIA](https://github.com/the-via/keyboards) repos later on. I’m also considering adding a screen sometime in the future as a v2 version. Any suggestions for improvements or features would be greatly appreciated!
-
-
-## Tutorials I Followed
-- ["This Keyboard Will Make You More Productive! DIY Macropad Build + QMK Setup"](https://www.youtube.com/watch?v=BcXycScePHM)
-- ["How To Setup VIA On Any QMK Keyboard"](https://www.youtube.com/watch?v=7d5yzBOup9U)
